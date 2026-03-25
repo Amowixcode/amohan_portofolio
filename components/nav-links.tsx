@@ -6,10 +6,10 @@ import { cn } from "@/lib/utils";
 
 const links = [
   { href: "/#about", label: "About", exact: "/" },
+  { href: "/#experience", label: "Experience", exact: "/" },
   { href: "/#projects", label: "Projects", exact: "/" },
   { href: "/#skills", label: "Skills", exact: "/" },
   { href: "/#contact", label: "Contact", exact: "/" },
-  { href: "/projects", label: "All Projects", exact: "/projects" },
 ];
 
 export default function NavLinks() {

@@ -70,19 +70,6 @@ a {
   color: var(--foreground);
 }
 
-.gradient-text {
-  background: linear-gradient(135deg, #e5e7eb 10%, #a5b4fc 45%, #22d3ee 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-}
-
 .section-spacing {
-  padding-block: 5rem;
-}
-
-@media (max-width: 640px) {
-  .section-spacing {
-    padding-block: 4rem;
-  }
+  padding-block: 4rem;
 }
