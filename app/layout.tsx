@@ -19,11 +19,11 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   metadataBase: new URL("https://example.com"),
   title: {
-    default: "Amohan Kannan | Developer Portfolio",
+    default: "Amohan Kannan | Informatics Student Portfolio",
     template: "%s | Amohan Kannan",
   },
   description:
-    "Modern developer portfolio built with Next.js, TypeScript, Tailwind CSS, shadcn/ui, and Framer Motion.",
+    "Personal portfolio for an Informatics student at NTNU, focused on studies, experience, and student projects.",
   keywords: [
     "developer portfolio",
     "frontend developer",
@@ -32,16 +32,16 @@ export const metadata: Metadata = {
     "portfolio",
   ],
   openGraph: {
-    title: "Amohan Kannan | Developer Portfolio",
+    title: "Amohan Kannan | Informatics Student Portfolio",
     description:
-      "Frontend-focused developer portfolio with polished UI, strong structure, and modern product sensibilities.",
+      "Personal portfolio for an Informatics student at NTNU, focused on studies, experience, and student projects.",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Amohan Kannan | Developer Portfolio",
+    title: "Amohan Kannan | Informatics Student Portfolio",
     description:
-      "Frontend-focused developer portfolio with polished UI, strong structure, and modern product sensibilities.",
+      "Personal portfolio for an Informatics student at NTNU, focused on studies, experience, and student projects.",
   },
 };
 
