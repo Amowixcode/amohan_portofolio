@@ -2,18 +2,20 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useLanguage } from "@/components/language-context";
 import { cn } from "@/lib/utils";
-
-const links = [
-  { href: "/#about", label: "About", exact: "/" },
-  { href: "/#experience", label: "Experience", exact: "/" },
-  { href: "/#projects", label: "Projects", exact: "/" },
-  { href: "/#skills", label: "Skills", exact: "/" },
-  { href: "/#contact", label: "Contact", exact: "/" },
-];
 
 export default function NavLinks() {
   const pathname = usePathname();
+  const { t } = useLanguage();
+
+  const links = [
+    { href: "/#about", label: t("nav_about"), exact: "/" },
+    { href: "/#experience", label: t("nav_experience"), exact: "/" },
+    { href: "/#projects", label: t("nav_projects"), exact: "/" },
+    { href: "/#skills", label: t("nav_skills"), exact: "/" },
+    { href: "/#contact", label: t("nav_contact"), exact: "/" },
+  ];
 
   return (
     <nav className="hidden items-center gap-1 md:flex" aria-label="Primary">

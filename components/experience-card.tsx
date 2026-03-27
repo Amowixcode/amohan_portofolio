@@ -1,48 +1,42 @@
 import Image from "next/image";
 import FadeIn from "@/components/motion/fade-in";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-
-type Experience = {
-  title: string;
-  image: string;
-  description: string[];
-};
 
 type ExperienceCardProps = {
-  experience: Experience;
+  title: string;
+  subtitle: string;
+  description: string;
+  image: string;
   delay?: number;
 };
 
 export default function ExperienceCard({
-  experience,
+  title,
+  subtitle,
+  description,
+  image,
   delay = 0,
 }: ExperienceCardProps) {
   return (
     <FadeIn delay={delay}>
-      <Card className="h-full overflow-hidden border-white/10 bg-white/5">
-        <div className="flex items-center gap-4 border-b border-white/10 px-6 py-5">
-          <div className="relative h-16 w-16 shrink-0 overflow-hidden rounded-2xl border border-white/10 bg-white/5">
-            <Image
-              src={experience.image}
-              alt={experience.title}
-              fill
-              className="object-cover"
-              sizes="64px"
-            />
-          </div>
-          <CardTitle className="text-lg leading-7">{experience.title}</CardTitle>
+      <article className="group h-full overflow-hidden rounded-2xl border border-white/10 bg-white/5 p-6 transition duration-300 hover:-translate-y-1 hover:shadow-md hover:shadow-black/15">
+        <div className="relative mb-5 h-40 overflow-hidden rounded-xl border border-white/10 bg-white/5">
+          <Image
+            src={image}
+            alt={title}
+            fill
+            className="object-cover transition duration-300"
+            sizes="(min-width: 768px) 50vw, 100vw"
+          />
         </div>
 
-        <CardHeader className="sr-only">
-          <CardTitle>{experience.title}</CardTitle>
-        </CardHeader>
-
-        <CardContent className="space-y-4 p-6 pt-6 text-base leading-8 text-muted-foreground">
-          {experience.description.map((paragraph) => (
-            <p key={paragraph}>{paragraph}</p>
-          ))}
-        </CardContent>
-      </Card>
+        <div className="space-y-2">
+          <h3 className="text-lg font-semibold text-foreground">{title}</h3>
+          <p className="text-sm text-muted-foreground">{subtitle}</p>
+          <p className="text-sm leading-6 text-muted-foreground/90">
+            {description}
+          </p>
+        </div>
+      </article>
     </FadeIn>
   );
 }
