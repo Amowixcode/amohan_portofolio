@@ -60,7 +60,7 @@ export default function RootLayout({
       <body className="min-h-screen bg-background font-sans text-foreground antialiased">
         <ThemeProvider>
           <LanguageProvider>
-            <div className="relative flex min-h-screen flex-col overflow-hidden">
+            <div className="relative flex min-h-screen flex-col">
               <div className="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(circle_at_top,_rgba(99,102,241,0.22),_transparent_35%),radial-gradient(circle_at_80%_20%,_rgba(34,211,238,0.14),_transparent_25%),linear-gradient(180deg,_rgba(17,24,39,0.65),_rgba(11,11,15,1))]" />
               <Navbar />
               <PageTransition>{children}</PageTransition>

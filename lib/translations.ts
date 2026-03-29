@@ -10,18 +10,22 @@ export const translations = {
     hero_eyebrow: "Portfolio",
     hero_title: "Hi, I'm Amohan Kannan",
     hero_description_one:
-      "I'm an Informatics student at NTNU who enjoys building web applications and solving real problems through code.",
+      "Informatics student building structured and reliable software systems",
     hero_description_two:
-      "I have experience with backend development and an interest in creating systems that are both reliable and easy to use.",
+      "I build fullstack applications with Java, Spring Boot, React, and Python, and enjoy solving real-world problems in both team and individual projects.",
+    hero_description_three:
+      "Currently looking for internship opportunities within software development.",
     about_title: "About",
     about_description:
-      "A short introduction to my background and what I am building experience in.",
+      "A short overview of my background and practical experience.",
     about_body_one:
-      "I'm currently studying Informatics at NTNU in Trondheim, where I'm building a strong foundation in programming and system development.",
+      "I'm currently studying Informatics at NTNU in Trondheim, where I'm building a strong foundation in software development and system design.",
     about_body_two:
-      "I've worked with backend development using Java and Spring Boot, focusing on building structured and maintainable systems.",
+      "I've worked on fullstack applications in team environments, including a REST API with Java and Spring Boot and a Scrum-based web project using React, Django, and Python.",
     about_body_three:
-      "Alongside my studies, I work as a teaching assistant in Human-Computer Interaction, which has strengthened my understanding of how design decisions affect users.",
+      "Through these projects, I've gained hands-on experience with Git, GitHub, Docker, Postman, PostgreSQL, Supabase, Vercel, and collaborative development practices.",
+    about_body_four:
+      "Outside development, I work as a teaching assistant in Human-Computer Interaction at NTNU and lead the Tamil Student Association in Trondheim. In my free time, I enjoy training and playing football.",
     projects_title: "Projects",
     projects_description:
       "A selected university project that highlights how I work with backend systems and team collaboration.",
@@ -68,18 +72,22 @@ export const translations = {
     hero_eyebrow: "Portefolje",
     hero_title: "Hei, jeg er Amohan Kannan",
     hero_description_one:
-      "Jeg er informatikkstudent ved NTNU og liker \u00E5 bygge webapplikasjoner og l\u00F8se ekte problemer med kode.",
+      "Informatikkstudent som bygger strukturerte og p\u00E5litelige programvaresystemer",
     hero_description_two:
-      "Jeg har erfaring med backend-utvikling og er opptatt av \u00E5 lage systemer som er b\u00E5de p\u00E5litelige og enkle \u00E5 bruke.",
+      "Jeg bygger fullstack-applikasjoner med Java, Spring Boot, React og Python, og liker å løse virkelige problemer både i team og individuelt.",
+    hero_description_three:
+      "Ser for tiden etter internship-muligheter innen programvareutvikling.",
     about_title: "Om meg",
     about_description:
-      "En kort introduksjon til bakgrunnen min og hva jeg bygger erfaring innen.",
+      "En kort oversikt over bakgrunnen min og den praktiske erfaringen min.",
     about_body_one:
-      "Jeg studerer informatikk ved NTNU i Trondheim, hvor jeg bygger et solid grunnlag i programmering og systemutvikling.",
+      "Jeg studerer informatikk ved NTNU i Trondheim, hvor jeg bygger et solid grunnlag i programvareutvikling og systemdesign.",
     about_body_two:
-      "Jeg har jobbet med backend-utvikling i Java og Spring Boot, med fokus p\u00E5 \u00E5 bygge strukturerte og vedlikeholdbare systemer.",
+      "Jeg har erfaring med fullstack-applikasjoner i team, blant annet et REST API med Java og Spring Boot og et Scrum-basert webprosjekt med React, Django og Python.",
     about_body_three:
-      "Ved siden av studiene jobber jeg som studentassistent i menneske-maskin-interaksjon, noe som har styrket forst\u00E5elsen min av hvordan designvalg p\u00E5virker brukere.",
+      "Gjennom disse prosjektene har jeg fått praktisk erfaring med Git, GitHub, Docker, Postman, PostgreSQL, Supabase, Vercel og samarbeidsbaserte utviklingsmetoder.",
+    about_body_four:
+      "Utenom utvikling jobber jeg som studentassistent i menneske-maskin-interaksjon ved NTNU og er leder for Tamil Student Association i Trondheim. På fritiden liker jeg å trene og spille fotball.",
     projects_title: "Prosjekter",
     projects_description:
       "Et utvalgt universitetsprosjekt som viser hvordan jeg jobber med backend-systemer og teamsamarbeid.",

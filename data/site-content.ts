@@ -16,6 +16,11 @@ export const contactInfo = {
   phone: "+47 960 44 575",
 } as const;
 
+export const heroImage = {
+  src: "/portfolioebilde/1000009019.jpg",
+  alt: "Developer portfolio visual",
+} as const;
+
 export const experiences = [
   {
     id: "teaching-assistant",

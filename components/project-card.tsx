@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight, Github } from "lucide-react";
 import FadeIn from "@/components/motion/fade-in";
@@ -13,20 +12,6 @@ export default function ProjectCard({ project, delay = 0 }: ProjectCardProps) {
   return (
     <FadeIn delay={delay}>
       <article className="group h-full overflow-hidden rounded-2xl border border-white/10 bg-white/5 p-6 transition duration-300 hover:-translate-y-1 hover:shadow-md hover:shadow-black/15">
-        <div className="relative mb-5 h-40 overflow-hidden rounded-xl border border-white/10 bg-background/60">
-          {project.image ? (
-            <Image
-              src={project.image}
-              alt={project.title}
-              fill
-              className="object-cover transition duration-300 group-hover:scale-[1.02]"
-              sizes="(min-width: 768px) 50vw, 100vw"
-            />
-          ) : (
-            <div className="h-full w-full bg-[linear-gradient(135deg,rgba(255,255,255,0.08),rgba(255,255,255,0.02))]" />
-          )}
-        </div>
-
         <div className="space-y-5">
           <div className="space-y-2">
             <h3 className="text-xl font-semibold text-foreground">
