@@ -29,6 +29,33 @@ export const translations = {
     projects_title: "Projects",
     projects_description:
       "A selected university project that highlights how I work with backend systems and team collaboration.",
+    projects_page_eyebrow: "Projects",
+    projects_page_title:
+      "A closer look at the work and systems behind the portfolio.",
+    projects_page_description:
+      "These projects are presented as static content on purpose, making the site easy to maintain while still feeling structured and scalable.",
+    project_event_planner_title: "Event Planner Platform",
+    project_event_planner_summary:
+      "Fullstack event platform inspired by products like Spond, built in a collaborative university team.",
+    project_event_planner_highlight_one:
+      "Designed and implemented REST API endpoints in Java and Spring Boot for users, events, and groups.",
+    project_event_planner_highlight_two:
+      "Built interactive frontend flows in JavaFX with FXML for event creation, group management, and event participation.",
+    project_event_planner_highlight_three:
+      "Applied a layered architecture with Controller, Service, and Repository responsibilities for maintainable code.",
+    project_event_planner_highlight_four:
+      "Collaborated in a team using Git and GitHub for shared development and version control.",
+    project_student_overview_title: "Student Overview Portal",
+    project_student_overview_summary:
+      "Fullstack web application developed in a Scrum-based team to simulate a real-world product workflow.",
+    project_student_overview_highlight_one:
+      "Built frontend and backend features using React, Django, and Python across a shared fullstack codebase.",
+    project_student_overview_highlight_two:
+      "Developed the application in a Scrum team with sprints, stand-ups, and structured task management.",
+    project_student_overview_highlight_three:
+      "Used Git and GitHub for version control, collaboration, and coordinated team delivery.",
+    project_student_overview_highlight_four:
+      "Contributed across the stack to deliver a student-focused web experience with clear team ownership.",
     experience_title: "Experience",
     experience_description:
       "A few roles that reflect how I work with people, design, and collaboration.",
@@ -53,20 +80,22 @@ export const translations = {
     experience_card_tsat_highlight_four:
       "Strengthened leadership and stakeholder communication through event planning and team follow-up.",
     skills_title: "Skills",
-    skills_description: "The main tools and areas I have worked with so far.",
-    skills_frontend: "Frontend",
-    skills_backend: "Backend",
-    skills_other: "Other",
-    skills_frontend_items: "React, Next.js, TypeScript, Tailwind",
-    skills_backend_items: "Java, Spring Boot, REST APIs",
-    skills_other_items: "Git, User-centered design",
+    skills_description:
+      "A concise overview of the technologies and tools I use in practical development work.",
+    skills_frontend: "Languages",
+    skills_backend: "Frameworks & Libraries",
+    skills_other: "Tools",
+    skills_frontend_items: "Java, Python, JavaScript",
+    skills_backend_items: "Spring Boot, Django, React",
+    skills_other_items:
+      "Git, GitHub, Docker, Postman, PostgreSQL, Supabase, Vercel",
     contact_title: "Get in touch",
     contact_description:
-      "I'm currently looking for internships and part-time opportunities. Feel free to reach out.",
+      "I'm currently looking for internship opportunities. If you're hiring, I'd be glad to connect.",
     contact_text:
-      "I'm currently looking for internships and part-time opportunities.",
+      "I'm currently looking for internship opportunities.",
     contact_text_secondary:
-      "If you think I could be a good fit, feel free to reach out.",
+      "If you think I could be a good fit, I'd be glad to hear from you.",
     contact_linkedin: "LinkedIn",
     contact_github: "GitHub",
     contact_email: "Email",
@@ -76,7 +105,7 @@ export const translations = {
   no: {
     nav_brand: "Portefolje",
     nav_subtitle: "Informatikkstudent ved NTNU",
-    nav_about: "Meg",
+    nav_about: "Om Meg",
     nav_experience: "Erfaring",
     nav_projects: "Prosjekter",
     nav_skills: "Ferdigheter",
@@ -84,7 +113,7 @@ export const translations = {
     hero_eyebrow: "Portefolje",
     hero_title: "Hei, jeg er Amohan Kannan",
     hero_description_one:
-      "Informatikkstudent som bygger strukturerte og p\u00E5litelige programvaresystemer",
+      "Informatikkstudent som bygger strukturerte og pålitelige programvaresystemer",
     hero_description_two:
       "Jeg bygger fullstack-applikasjoner med Java, Spring Boot, React og Python, og liker å løse virkelige problemer både i team og individuelt.",
     hero_description_three:
@@ -103,6 +132,33 @@ export const translations = {
     projects_title: "Prosjekter",
     projects_description:
       "Et utvalgt universitetsprosjekt som viser hvordan jeg jobber med backend-systemer og teamsamarbeid.",
+    projects_page_eyebrow: "Prosjekter",
+    projects_page_title:
+      "Et nærmere blikk på arbeidet og systemene bak porteføljen.",
+    projects_page_description:
+      "Disse prosjektene presenteres som statisk innhold med vilje, slik at siden er enkel å vedlikeholde samtidig som den føles strukturert og skalerbar.",
+    project_event_planner_title: "Eventplanlegger",
+    project_event_planner_summary:
+      "En fullstack eventplattform inspirert av tjenester som Spond, utviklet i et samarbeidende universitetsteam.",
+    project_event_planner_highlight_one:
+      "Designet og implementerte REST API-endepunkter i Java og Spring Boot for brukere, arrangementer og grupper.",
+    project_event_planner_highlight_two:
+      "Bygde interaktive frontend-flyter i JavaFX med FXML for opprettelse av arrangementer, gruppehåndtering og deltakelse.",
+    project_event_planner_highlight_three:
+      "Brukte lagdelt arkitektur med Controller-, Service- og Repository-ansvar for mer vedlikeholdbar kode.",
+    project_event_planner_highlight_four:
+      "Samarbeidet i team med Git og GitHub for felles utvikling og versjonskontroll.",
+    project_student_overview_title: "Studentoversikt",
+    project_student_overview_summary:
+      "En fullstack webapplikasjon utviklet i et Scrum-basert team for å simulere en reell produktutviklingsprosess.",
+    project_student_overview_highlight_one:
+      "Bygde frontend- og backend-funksjonalitet med React, Django og Python i en delt fullstack kodebase.",
+    project_student_overview_highlight_two:
+      "Utviklet applikasjonen i et Scrum-team med sprinter, stand-ups og strukturert oppgavehåndtering.",
+    project_student_overview_highlight_three:
+      "Brukte Git og GitHub til versjonskontroll, samarbeid og koordinert levering i teamet.",
+    project_student_overview_highlight_four:
+      "Bidro på tvers av stacken for å levere en studentrettet webopplevelse med tydelig teamansvar.",
     experience_title: "Erfaring",
     experience_description:
       "Noen roller som viser hvordan jeg jobber med mennesker, design og samarbeid.",
@@ -128,24 +184,26 @@ export const translations = {
       "Styrket ledererfaring og kommunikasjon gjennom arrangementsarbeid og oppfølging av team.",
     skills_title: "Ferdigheter",
     skills_description:
-      "De viktigste verkt\u00F8yene og omr\u00E5dene jeg har jobbet med s\u00E5 langt.",
-    skills_frontend: "Frontend",
-    skills_backend: "Backend",
-    skills_other: "Annet",
-    skills_frontend_items: "React, Next.js, TypeScript, Tailwind",
-    skills_backend_items: "Java, Spring Boot, REST API-er",
-    skills_other_items: "Git, brukersentrert design",
+      "En kort oversikt over teknologiene og verktøyene jeg bruker i praktisk utviklingsarbeid.",
+    skills_frontend: "Språk",
+    skills_backend: "Rammeverk og biblioteker",
+    skills_other: "Verktøy",
+    skills_frontend_items: "Java, Python, JavaScript",
+    skills_backend_items: "Spring Boot, Django, React",
+    skills_other_items:
+      "Git, GitHub, Docker, Postman, PostgreSQL, Supabase, Vercel",
     contact_title: "Ta kontakt",
     contact_description:
-      "Jeg ser etter internship og deltidsjobber. Ta gjerne kontakt.",
-    contact_text: "Jeg ser etter internship og deltidsjobber.",
+      "Jeg ser etter internship-muligheter. Ta gjerne kontakt hvis dere ansetter.",
+    contact_text:
+      "Jeg ser etter internship-muligheter.",
     contact_text_secondary:
       "Ta gjerne kontakt hvis du tror jeg kan passe godt inn.",
     contact_linkedin: "LinkedIn",
     contact_github: "GitHub",
     contact_email: "E-post",
     contact_phone: "Telefon",
-    language_switcher_label: "Velg spr\u00E5k",
+    language_switcher_label: "Velg språk",
   },
 } as const;
 

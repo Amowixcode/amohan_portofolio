@@ -9,6 +9,7 @@ import FadeIn from "@/components/motion/fade-in";
 import ProjectCard from "@/components/project-card";
 import SectionShell from "@/components/section-shell";
 import { experiences, heroImage } from "@/data/site-content";
+import { localizeProject } from "@/lib/localize-project";
 import { type Project } from "@/types/project";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
@@ -20,6 +21,7 @@ export default function HomePageContent({
   experienceItems: typeof experiences;
 }) {
   const { t } = useLanguage();
+  const localizedProjects = projects.map((project) => localizeProject(project, t));
 
   return (
     <main>
@@ -97,7 +99,7 @@ export default function HomePageContent({
           description={t("projects_description")}
         >
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
-            {projects.map((item, index) => (
+            {localizedProjects.map((item, index) => (
               <ProjectCard
                 key={item.id}
                 project={item}
@@ -155,7 +157,7 @@ export default function HomePageContent({
           title={t("skills_title")}
           description={t("skills_description")}
         >
-          <div className="grid gap-4 md:grid-cols-3">
+          <div className="grid gap-5 md:grid-cols-3">
             {[
               {
                 title: t("skills_frontend"),
@@ -171,12 +173,25 @@ export default function HomePageContent({
               },
             ].map((group, index) => (
               <FadeIn key={group.title} delay={index * 0.08}>
-                <Card className="h-full border-white/10 bg-white/5">
-                  <CardHeader>
-                    <CardTitle>{group.title}</CardTitle>
+                <Card className="h-full border-white/10 bg-white/[0.045] shadow-[0_20px_50px_-35px_rgba(15,23,42,0.9)] transition-all duration-300 hover:-translate-y-1.5 hover:border-accent/25 hover:shadow-[0_26px_70px_-36px_rgba(79,209,255,0.16)]">
+                  <CardHeader className="min-h-32 space-y-3 border-b border-white/8 pb-5">
+                    <span
+                      className="h-0.5 w-10 rounded-full bg-accent"
+                      aria-hidden="true"
+                    />
+                    <CardTitle className="min-h-14 text-xl">{group.title}</CardTitle>
                   </CardHeader>
-                  <CardContent className="text-base leading-8 text-muted-foreground">
-                    {group.items}
+                  <CardContent className="pt-5">
+                    <ul className="min-h-[7.5rem] content-start flex flex-wrap gap-2.5">
+                      {group.items.split(", ").map((item) => (
+                        <li
+                          key={item}
+                          className="rounded-full border border-white/12 bg-white/[0.06] px-3 py-1.5 text-[11px] font-medium uppercase tracking-[0.12em] text-slate-200/90"
+                        >
+                          {item}
+                        </li>
+                      ))}
+                    </ul>
                   </CardContent>
                 </Card>
               </FadeIn>

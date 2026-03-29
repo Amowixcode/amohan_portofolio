@@ -32,16 +32,16 @@ export default function ExperienceCard({
           </div>
 
           <div className="space-y-4">
-            <div className="space-y-2 border-b border-white/8 pb-4">
+            <div className="min-h-24 space-y-2 border-b border-white/8 pb-4">
               <p className="text-[11px] font-medium uppercase tracking-[0.16em] text-slate-300/80">
                 {subtitle}
               </p>
-              <h3 className="text-xl font-semibold tracking-tight text-foreground">
+              <h3 className="min-h-14 text-xl font-semibold tracking-tight text-foreground">
                 {title}
               </h3>
             </div>
 
-            <ul className="space-y-3 text-sm leading-6 text-muted-foreground/95">
+            <ul className="min-h-[13.5rem] space-y-3 text-sm leading-6 text-muted-foreground/95">
               {highlights.map((highlight) => (
                 <li key={highlight} className="flex items-start gap-3">
                   <span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-accent shadow-[0_0_12px_rgba(79,209,255,0.45)]" />

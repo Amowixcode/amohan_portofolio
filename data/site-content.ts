@@ -11,7 +11,7 @@ export const socialLinks = [
 
 export const contactInfo = {
   linkedin: "https://www.linkedin.com/in/amohan-kannan-33b520232",
-  github: "https://github.com/Amowixcode",
+  github: "https://git.ntnu.no/amohank",
   email: "amohankannan@gmail.com",
   phone: "+47 960 44 575",
 } as const;
