@@ -34,12 +34,24 @@ export const translations = {
       "A few roles that reflect how I work with people, design, and collaboration.",
     experience_card_teaching_title: "Teaching Assistant",
     experience_card_teaching_subtitle: "NTNU",
-    experience_card_teaching_description:
-      "Guided students in usability and user-centered design. Helped bridge the gap between design and development.",
+    experience_card_teaching_highlight_one:
+      "Guided students in Human-Computer Interaction through feedback, discussion, and practical supervision.",
+    experience_card_teaching_highlight_two:
+      "Explained usability principles and user-centered design in a clear and structured way.",
+    experience_card_teaching_highlight_three:
+      "Supported communication between students and course staff to improve collaboration and learning outcomes.",
+    experience_card_teaching_highlight_four:
+      "Helped students connect design decisions with implementation and real user impact.",
     experience_card_tsat_title: "Leader",
     experience_card_tsat_subtitle: "Tamil Student Association Trondheim (TSAT)",
-    experience_card_tsat_description:
-      "Led a student organization, coordinating events and managing team collaboration.",
+    experience_card_tsat_highlight_one:
+      "Led planning and coordination across the student organization with a focus on teamwork and communication.",
+    experience_card_tsat_highlight_two:
+      "Organized events for 100+ participants and helped deliver them smoothly from planning to execution.",
+    experience_card_tsat_highlight_three:
+      "Collaborated with board members and volunteers to delegate tasks and keep projects moving.",
+    experience_card_tsat_highlight_four:
+      "Strengthened leadership and stakeholder communication through event planning and team follow-up.",
     skills_title: "Skills",
     skills_description: "The main tools and areas I have worked with so far.",
     skills_frontend: "Frontend",
@@ -96,12 +108,24 @@ export const translations = {
       "Noen roller som viser hvordan jeg jobber med mennesker, design og samarbeid.",
     experience_card_teaching_title: "Studentassistent",
     experience_card_teaching_subtitle: "NTNU",
-    experience_card_teaching_description:
-      "Veiledet studenter i brukervennlighet og brukersentrert design. Bidro til a bygge bro mellom design og utvikling.",
+    experience_card_teaching_highlight_one:
+      "Veiledet studenter i menneske-maskin-interaksjon gjennom tilbakemeldinger, diskusjon og praktisk oppfølging.",
+    experience_card_teaching_highlight_two:
+      "Forklarte prinsipper for brukervennlighet og brukersentrert design på en tydelig og strukturert måte.",
+    experience_card_teaching_highlight_three:
+      "Bidro til god kommunikasjon mellom studenter og fagstab for å styrke samarbeid og læringsutbytte.",
+    experience_card_teaching_highlight_four:
+      "Hjalp studenter med å koble designvalg til implementasjon og faktisk brukeropplevelse.",
     experience_card_tsat_title: "Leder",
     experience_card_tsat_subtitle: "Tamil Student Association Trondheim (TSAT)",
-    experience_card_tsat_description:
-      "Ledet en studentorganisasjon, koordinerte arrangementer og fulgte opp samarbeid i teamet.",
+    experience_card_tsat_highlight_one:
+      "Ledet planlegging og koordinering i studentorganisasjonen med fokus på samarbeid og kommunikasjon.",
+    experience_card_tsat_highlight_two:
+      "Organiserte arrangementer for 100+ deltakere og bidro til trygg gjennomføring fra planlegging til utførelse.",
+    experience_card_tsat_highlight_three:
+      "Samarbeidet med styremedlemmer og frivillige for å delegere oppgaver og holde prosjekter i fremdrift.",
+    experience_card_tsat_highlight_four:
+      "Styrket ledererfaring og kommunikasjon gjennom arrangementsarbeid og oppfølging av team.",
     skills_title: "Ferdigheter",
     skills_description:
       "De viktigste verkt\u00F8yene og omr\u00E5dene jeg har jobbet med s\u00E5 langt.",
