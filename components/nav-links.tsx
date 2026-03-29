@@ -93,7 +93,7 @@ export default function NavLinks() {
 
   return (
     <nav
-      className="hidden items-center gap-1 rounded-full border border-white/10 bg-white/5 p-1 md:flex"
+      className="hidden items-center gap-1 rounded-full border border-white/10 bg-white/[0.045] p-1 shadow-[0_20px_50px_-35px_rgba(15,23,42,0.9)] md:flex"
       aria-label="Primary"
     >
       {links.map((link) => {
@@ -104,9 +104,9 @@ export default function NavLinks() {
             key={link.href}
             href={link.href}
             className={cn(
-              "rounded-full px-4 py-2 text-sm text-slate-300 transition-all duration-300 hover:bg-white/8 hover:text-white",
+              "rounded-full border border-transparent px-4 py-2 text-sm text-slate-300 transition-[background-color,border-color,color,box-shadow] duration-300 hover:bg-white/[0.08] hover:text-white",
               isActive &&
-                "bg-white/12 text-white shadow-[inset_0_1px_0_rgba(255,255,255,0.14),0_10px_24px_-16px_rgba(255,255,255,0.45)]",
+                "border-accent/20 bg-white/[0.09] text-white shadow-[inset_0_1px_0_rgba(255,255,255,0.08),0_18px_40px_-28px_rgba(79,209,255,0.35)]",
             )}
             aria-current={isActive ? "page" : undefined}
           >

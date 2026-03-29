@@ -113,7 +113,7 @@ export default function HomePageContent({
           title={t("experience_title")}
           description={t("experience_description")}
         >
-          <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
+          <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
             {experienceItems.map((experience, index) => {
               const isTeaching = experience.id === "teaching-assistant";
 
@@ -127,10 +127,20 @@ export default function HomePageContent({
                       ? t("experience_card_teaching_title")
                       : t("experience_card_tsat_title")
                   }
-                  description={
+                  highlights={
                     isTeaching
-                      ? t("experience_card_teaching_description")
-                      : t("experience_card_tsat_description")
+                      ? [
+                          t("experience_card_teaching_highlight_one"),
+                          t("experience_card_teaching_highlight_two"),
+                          t("experience_card_teaching_highlight_three"),
+                          t("experience_card_teaching_highlight_four"),
+                        ]
+                      : [
+                          t("experience_card_tsat_highlight_one"),
+                          t("experience_card_tsat_highlight_two"),
+                          t("experience_card_tsat_highlight_three"),
+                          t("experience_card_tsat_highlight_four"),
+                        ]
                   }
                   delay={index * 0.08}
                 />
