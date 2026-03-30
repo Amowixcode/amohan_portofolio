@@ -25,8 +25,8 @@ export default function ProjectCard({ project, delay = 0 }: ProjectCardProps) {
             </div>
 
             <ul className="min-h-[13.5rem] space-y-2.5 text-sm leading-6 text-muted-foreground">
-              {project.highlights.map((highlight) => (
-                <li key={highlight} className="flex items-start gap-3">
+              {project.highlights.map((highlight, index) => (
+                <li key={`${highlight}-${index}`} className="flex items-start gap-3">
                   <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-accent shadow-[0_0_12px_rgba(79,209,255,0.45)]" />
                   <span>{highlight}</span>
                 </li>
