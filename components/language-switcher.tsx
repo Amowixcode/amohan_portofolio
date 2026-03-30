@@ -13,6 +13,7 @@ const options = [
 export default function LanguageSwitcher() {
   const [isOpen, setIsOpen] = useState(false);
   const { language, setLanguage, t } = useLanguage();
+  const activeOption = options.find((option) => option.value === language) ?? options[0];
 
   return (
     <div className="relative">
@@ -25,7 +26,7 @@ export default function LanguageSwitcher() {
         aria-label={t("language_switcher_label")}
       >
         <Globe className="size-4" />
-        <span>{language.toUpperCase()}</span>
+        <span>{activeOption.label}</span>
       </button>
 
       {isOpen ? (
